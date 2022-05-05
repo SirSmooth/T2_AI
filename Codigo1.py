@@ -18,3 +18,8 @@ pd.Index.value_counts(classALeRCE).plot.bar()
 plt.show()
 
 # b)
+# Leemos el archivo
+features_small = pd.read_pickle("features_small.pickle")
+
+print(features_small)
+
