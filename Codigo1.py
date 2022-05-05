@@ -14,8 +14,6 @@ classALeRCE = dfcrossmatches_small['classALeRCE']
 
 # print(classALeRCE)
 
-# classALeRCE.plot.bar(np.array(pd.Index.value_counts(classALeRCE).index), pd.Index.value_counts(classALeRCE)['classALeRCE'].astype(float), rot=0)
-
 pd.Index.value_counts(classALeRCE).plot.bar()
 plt.show()
 
